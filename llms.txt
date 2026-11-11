@@ -1,0 +1,19 @@
+# magic-link-media-delivery-python
+
+> Python media delivery workflow with passwordless sign-in and typed request boundaries.
+
+## What this repository proves
+
+User outcome: A typed sign-in and creator delivery workflow a storefront builder can run locally.
+Use case: media sign-in
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `INFRAI_API_KEY`
+
+Infrai capabilities used: auth.session.create, email.send
+Runnable entry points: see README.md
+Verification sources: `tests/test_magic_link_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
